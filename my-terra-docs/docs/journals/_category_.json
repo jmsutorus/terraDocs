@@ -1,0 +1,8 @@
+{
+  "label": "Journals",
+  "position": 12,
+  "link": {
+    "type": "generated-index",
+    "description": "Guides and documentation for Journals in Terra."
+  }
+}

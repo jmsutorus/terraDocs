@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:ital,wght@0,100..900;1,100..900&display=swap');
+
+/**
+ * The Earthbound Editorial Design System
+ * 
+ * Creative North Star: High-end editorial publication feel.
+ * No hard borders, tonal layering, organic rhythm, and Lexend typography.
+ */
+
+:root {
+  /* Core Tonal Palette */
+  --color-primary: #061b0e;
+  /* Deep Forest Green */
+  --color-secondary: #9f402d;
+  /* Terracotta */
+  --color-surface: #faf9f6;
+  /* Base Layer / Paper */
+  --color-on-surface: #061b0e;
+  --color-on-surface-variant: #434843;
+  /* Body Text */
+
+  /* Tonal Hierarchy (Surface Container Tiers) */
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f4f3f1;
+  --color-surface-container: #eae8e5;
+  --color-surface-container-high: #e3e2e0;
+  --color-surface-container-highest: #d9d7d4;
+
+  /* Infima Overrides */
+  --ifm-font-family-base: 'Lexend', system-ui, -apple-system, sans-serif;
+  --ifm-font-family-monospace: 'Lexend', monospace;
+
+  /* Color Roles */
+  --ifm-background-color: var(--color-surface);
+  --ifm-color-primary: var(--color-primary);
+
+  /* Infima Primary Variations for Forest Green */
+  --ifm-color-primary-dark: #05160c;
+  --ifm-color-primary-darker: #04140b;
+  --ifm-color-primary-darkest: #030d07;
+  --ifm-color-primary-light: #0d3b1f;
+  --ifm-color-primary-lighter: #114c28;
+  --ifm-color-primary-lightest: #186f3a;
+
+  --ifm-text-color: var(--color-on-surface-variant);
+  --ifm-heading-color: var(--color-primary);
+
+  /* Whitespace & Layout */
+  --ifm-spacing-vertical: 2.5rem;
+  --ifm-spacing-horizontal: 2.5rem;
+  --ifm-global-radius: 8px;
+  --ifm-card-border-radius: 8px;
+
+  /* Navigation & UI Shell */
+  --ifm-navbar-background-color: rgba(250, 249, 246, 0.85);
+  --ifm-navbar-shadow: none;
+  --ifm-navbar-border-color: transparent;
+
+  --ifm-footer-background-color: var(--color-primary);
+  --ifm-footer-color: var(--color-surface-container-lowest);
+  --ifm-footer-link-color: var(--color-surface-container-low);
+  --ifm-footer-link-hover-color: var(--color-secondary);
+
+  --ifm-sidebar-background-color: var(--color-surface-container-low);
+  --ifm-sidebar-border-color: transparent;
+
+  /* Overriding Borders & Rules */
+  --ifm-toc-border-color: transparent;
+  --ifm-hr-border-color: rgba(67, 72, 67, 0.15);
+  /* Ghost Border Fallback */
+  --ifm-pre-background: var(--color-surface-container-low);
+  --ifm-code-background: var(--color-surface-container-low);
+}
+
+/* Dark Mode (Inverted architectural tones) */
+[data-theme='dark'] {
+  --color-primary: #faf9f6;
+  --color-secondary: #ff7c6b;
+  --color-surface: #061b0e;
+  --color-on-surface: #faf9f6;
+  --color-on-surface-variant: #d9d7d4;
+
+  --color-surface-container-lowest: #0b2515;
+  --color-surface-container-low: #082111;
+  --color-surface-container: #061b0e;
+  --color-surface-container-high: #04140b;
+  --color-surface-container-highest: #030d07;
+
+  --ifm-background-color: var(--color-surface);
+  --ifm-color-primary: var(--color-secondary);
+
+  --ifm-navbar-background-color: rgba(6, 27, 14, 0.85);
+  --ifm-footer-background-color: var(--color-surface-container-highest);
+  --ifm-footer-color: var(--color-on-surface);
+  --ifm-footer-link-color: var(--color-on-surface-variant);
+}
+
+/* ---------------------------------------------------- */
+/* Typography */
+/* ---------------------------------------------------- */
+body {
+  font-family: var(--ifm-font-family-base);
+  color: var(--ifm-text-color);
+  background-color: var(--ifm-background-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ifm-font-family-base);
+  color: var(--ifm-heading-color);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  /* Tight editorial letter-spacing */
+}
+
+/* ---------------------------------------------------- */
+/* Layout & "No-Line" Rule */
+/* ---------------------------------------------------- */
+.navbar,
+.sidebar,
+.menu,
+.menu__link,
+.card,
+hr,
+th,
+td,
+pre,
+.dropdown__menu {
+  border: none !important;
+}
+
+/* Glassmorphism for floating UI */
+.navbar {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: none !important;
+}
+
+/* Ambient Shadows for Floating effects */
+.dropdown__menu,
+.navbar-sidebar {
+  box-shadow: 0 32px 64px rgba(6, 27, 14, 0.04) !important;
+  background-color: var(--color-surface-container-lowest) !important;
+}
+
+/* ---------------------------------------------------- */
+/* Components: Tactile & Kinetic */
+/* ---------------------------------------------------- */
+
+/* Buttons */
+.button {
+  border-radius: var(--ifm-global-radius) !important;
+  font-weight: 500;
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), background-color 0.2s ease;
+  border: none !important;
+}
+
+.button--secondary {
+  background-color: var(--color-surface-container-highest) !important;
+  color: var(--color-primary) !important;
+}
+
+.button--primary,
+.hero--primary .button--secondary {
+  background: var(--color-secondary) !important;
+  color: #ffffff !important;
+  background-image: linear-gradient(135deg, var(--color-secondary) 0%, #bd4b35 100%) !important;
+}
+
+.button:hover {
+  transform: scale(1.02);
+}
+
+/* Cards */
+.card {
+  background-color: var(--color-surface-container-lowest) !important;
+  box-shadow: 0 32px 64px rgba(6, 27, 14, 0.04) !important;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Sidebar & Menus */
+.theme-doc-sidebar-container {
+  background-color: var(--color-surface-container-low) !important;
+}
+
+.menu__link {
+  border-radius: var(--ifm-global-radius) !important;
+  color: var(--ifm-text-color);
+  font-weight: 400;
+}
+
+.menu__link--active,
+.menu__link--active:hover {
+  background-color: var(--color-surface-container) !important;
+  color: var(--color-primary) !important;
+  font-weight: 600;
+}
+
+/* Input Fields */
+input,
+textarea,
+select {
+  background-color: var(--color-surface-container-low) !important;
+  border: none !important;
+  border-radius: var(--ifm-global-radius) !important;
+  padding: 12px 18px;
+  color: var(--color-on-surface-variant) !important;
+  transition: background-color 0.2s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  background-color: var(--color-surface-container-high) !important;
+  outline: none;
+  border-bottom: 2px solid var(--color-secondary) !important;
+}
+
+/* Badges / Chips */
+.badge {
+  background-color: var(--color-surface-container-high) !important;
+  color: var(--color-secondary) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  border-radius: var(--ifm-global-radius) !important;
+  border: none !important;
+}
+
+/* Tables */
+table {
+  background-color: var(--color-surface-container-lowest);
+  border-radius: var(--ifm-global-radius);
+  overflow: hidden;
+}
+
+th {
+  background-color: var(--color-surface-container-low);
+  color: var(--color-primary);
+}
+
+td {
+  background-color: var(--color-surface-container-lowest);
+}
+
+/* ---------------------------------------------------- */
+/* Editorial Adjustments (Whitespace & Layout) */
+/* ---------------------------------------------------- */
+.container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 996px) {
+  .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.hero {
+  background-color: var(--color-surface) !important;
+  color: var(--color-primary) !important;
+}
+
+.hero__title {
+  color: var(--color-primary) !important;
+  font-weight: 800;
+}
+
+/* Overriding default Docusaurus link behavior */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
+
+.footer,
+.footer--dark {
+  --ifm-footer-background-color: var(--color-primary);
+  background-color: var(--ifm-footer-background-color) !important;
+}
+
+.hero--primary {
+  background-color: var(--color-surface) !important;
+}
+
+/* Dark Mode Footer Theme Alignment */
+[data-theme='dark'] .footer,
+[data-theme='dark'] .footer--dark {
+  --ifm-footer-background-color: var(--color-surface-container-highest);
+  color: var(--color-on-surface) !important;
+}
+
+[data-theme='dark'] .footer__title {
+  color: var(--color-secondary) !important;
+  font-weight: 600;
+}
+
+[data-theme='dark'] .footer__link-item {
+  color: var(--color-on-surface) !important;
+}
+
+[data-theme='dark'] .footer__link-item:hover {
+  color: var(--color-secondary) !important;
+}
+
+[data-theme='dark'] .footer__copyright {
+  color: var(--color-on-surface-variant) !important;
+}
