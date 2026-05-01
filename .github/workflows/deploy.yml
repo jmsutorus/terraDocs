@@ -46,3 +46,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
+
+      - name: Sync Shared Changelog
+        if: success()
+        env:
+          HUB_TOKEN: ${{ secrets.HUB_TOKEN }}
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git clone https://x-access-token:${{ secrets.HUB_TOKEN }}@github.com/jmsutorus/earthbound_changelog.git hub
+          mkdir -p hub/content/repos/terra_docs
+          cp CHANGELOG.md hub/content/repos/terra_docs/CHANGELOG.md
+          cd hub
+          git add .
+          git commit -m "Update changelog for Terra Docs" || echo "No changes to commit"
+          git push
