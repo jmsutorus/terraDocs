@@ -3,22 +3,42 @@ title: Overview
 sidebar_position: 1
 ---
 
-# Overview
+# Recipes
 
-Welcome to the **Overview** documentation for Terra.
+Recipes is your personal digital cookbook. Save the meals you make, build out their ingredient lists, and keep notes on what makes each one work. Your recipes can be kept private or shared publicly on your Terra profile.
 
-This section covers how to use the Recipes feature to enhance your lifestyle and productivity.
+## How it works
 
-## Overview
+Each recipe stores everything about a dish: the ingredients (organized by category), step-by-step instructions, prep and cook times, your personal rating, and optional extras like a flavor profile, a drink pairing, or a chef's tip. Once you've built up a collection, you can import any recipe's ingredients directly into a grocery list.
 
-Terra's Recipes module is designed to be intuitive, kinetic, and deeply integrated into your daily routine.
+## What you can store per recipe
 
-## Key Features
+- **Name** and description
+- **Ingredients** — with quantity, unit, category (produce, dairy, meat, pantry, etc.), and optional notes per ingredient
+- **Steps** — ordered cooking instructions
+- **Prep and cook time** — in minutes
+- **Servings**
+- **Rating** — 1–10, displayed as stars
+- **Tags** — for filtering and searching (cuisine, dietary style, difficulty, occasion, etc.)
+- **Photo** — upload a file or paste a URL
+- **Chef's Reserve** — optional extras: drink pairing, flavor profile, chef's secret technique, leftover idea, nutrition note
 
-- **Seamless Integration**: Works beautifully with other Terra modules.
-- **Tactile Experience**: Designed with our Earthbound Editorial philosophy.
-- **Privacy First**: Your data stays yours.
+## The four tabs
 
-## Getting Started
+| Tab | What it's for |
+|---|---|
+| **Home** | A featured recipe and editorial intro |
+| **Recipes** | Your full collection with search and tag filters |
+| **Pantry** | Your grocery list, including items imported from recipes |
+| **Agent** | AI cooking assistant (coming soon) |
 
-To get started with Recipes, navigate to the Recipes tab in the Terra app.
+## What you can do
+
+- **Save recipes** with full ingredient lists and instructions
+- **Search and filter** your collection by name or tag
+- **Rate recipes** to remember what worked
+- **Import ingredients** to your grocery list with one tap
+- **Publish recipes** to share them on your public profile
+- **Browse your collection** in a masonry gallery layout
+
+*Every meal, remembered.*

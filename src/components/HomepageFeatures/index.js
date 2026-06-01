@@ -4,40 +4,58 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Kinetic Harmony',
+    title: 'Habits & Workouts',
+    icon: 'directions_run',
     description: (
       <>
-        Experience a lifestyle companion that moves with you. Terra balances 
-        the weight of your daily tasks against the expansive nature of your long-term goals.
+        Track your physical rituals and daily consistency. Build kinetic 
+        harmony through streaks, heatmaps, and personal records.
       </>
     ),
   },
   {
-    title: 'Interconnected Ecosystem',
+    title: 'Moods & Insights',
+    icon: 'psychology',
     description: (
       <>
-        Your habits, mood, finances, and relationships aren't isolated. 
-        Terra brings them together into a single, cohesive narrative.
+        Chronicle the weather of your mind. Let the Ranger connect your 
+        emotional texture to your actions and environment.
       </>
     ),
   },
   {
-    title: 'Tactile Reflection',
+    title: 'Tasks & Events',
+    icon: 'event_note',
     description: (
       <>
-        Designed like a premium print publication. Terra treats your digital 
-        life with the respect and presence of fine paper and ink.
+        Align your daily actions with your long-term intentions. Manage 
+        your horizon through smart events and proactive notifications.
+      </>
+    ),
+  },
+  {
+    title: 'AI & Media Curation',
+    icon: 'auto_stories',
+    description: (
+      <>
+        Curate your intellectual consumption. The Ranger synthesizes your 
+        media, journals, and health logs to surface deep patterns.
       </>
     ),
   },
 ];
 
-function Feature({title, description}) {
+function Feature({title, icon, description}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3" style={{color: 'var(--color-primary)', marginBottom: '1.5rem', fontWeight: 600}}>{title}</Heading>
-        <p style={{lineHeight: '1.6', color: 'var(--color-on-surface-variant)'}}>{description}</p>
+    <div className={clsx('col col--3')}>
+      <div className={styles.featureCard}>
+        <div className={styles.featureIcon}>
+          <span className="material-symbols-outlined">{icon}</span>
+        </div>
+        <div className={styles.featureContent}>
+          <Heading as="h3" className={styles.featureTitle}>{title}</Heading>
+          <p className={styles.featureDescription}>{description}</p>
+        </div>
       </div>
     </div>
   );

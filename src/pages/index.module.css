@@ -1,23 +1,263 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+  padding: 8rem 0;
+  background-color: var(--color-surface);
   position: relative;
   overflow: hidden;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 4rem 1.5rem;
+    text-align: center;
+  }
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.heroBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--color-surface-container);
+  color: var(--color-on-surface-variant);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  width: fit-content;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBadge {
+    margin: 0 auto;
+  }
+}
+
+.pulseDot {
+  width: 6px;
+  height: 6px;
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(0.95); opacity: 0.7; }
+  70% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(0.95); opacity: 0.7; }
+}
+
+.heroTitle {
+  font-size: 4rem;
+  line-height: 1.1;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 996px) {
+  .heroTitle {
+    font-size: 3rem;
+  }
+}
+
+.accentText {
+  color: var(--color-secondary);
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: var(--color-on-surface-variant);
+  max-width: 32rem;
+}
+
+@media screen and (max-width: 996px) {
+  .heroSubtitle {
+    margin: 0 auto;
   }
 }
 
 .buttons {
   display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 996px) {
+  .buttons {
+    justify-content: center;
+  }
+}
+
+.heroMockup {
+  position: relative;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 996px) {
+  .heroMockup {
+    margin-top: 4rem;
+  }
+}
+
+/* Browser Frame Styles */
+.browserFrame {
+  background-color: #061b0e;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 40px 80px -20px rgba(6, 27, 14, 0.3);
+  border: 1px solid rgba(77, 100, 83, 0.2);
+}
+
+.browserHeader {
+  background-color: #0b1f14;
+  padding: 0.75rem 1rem;
+  display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 1rem;
+}
+
+.browserDots {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.dotRed, .dotYellow, .dotGreen {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+.dotRed { background-color: #9f402d; }
+.dotYellow { background-color: #b07d2e; }
+.dotGreen { background-color: #3d6b3a; }
+
+.browserAddress {
+  flex: 1;
+  background-color: rgba(6, 27, 14, 0.7);
+  border-radius: 0.4rem;
+  padding: 0.25rem 0.75rem;
+  color: rgba(180, 205, 184, 0.4);
+  font-family: monospace;
+  font-size: 0.7rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.browserContent {
+  height: 320px;
+  background-color: #061b0e;
+}
+
+/* Mockup Content Visuals */
+.mockupContainer {
+  display: flex;
+  height: 100%;
+}
+
+.mockupSidebar {
+  width: 3rem;
+  background-color: #030d07;
+  border-right: 1px solid rgba(77, 100, 83, 0.1);
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.mockupLogo {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: rgba(159, 64, 45, 0.3);
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.mockupNav {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: rgba(77, 100, 83, 0.15);
+  border-radius: 0.4rem;
+}
+
+.mockupMain {
+  flex: 1;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.mockupBreadcrumb {
+  width: 4rem;
+  height: 0.4rem;
+  background-color: rgba(77, 100, 83, 0.2);
+  border-radius: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.mockupTitle {
+  width: 10rem;
+  height: 1.25rem;
+  background-color: white;
+  opacity: 0.9;
+  border-radius: 0.4rem;
+}
+
+.mockupBody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.mockupTextLarge {
+  width: 100%;
+  height: 0.5rem;
+  background-color: rgba(180, 205, 184, 0.15);
+  border-radius: 0.25rem;
+}
+
+.mockupTextSmall {
+  width: 80%;
+  height: 0.4rem;
+  background-color: rgba(180, 205, 184, 0.1);
+  border-radius: 0.2rem;
+}
+
+.mockupGrid {
+  display: grid;
+  grid-cols: 2;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.mockupCard {
+  background-color: rgba(27, 48, 34, 0.6);
+  height: 5rem;
+  border-radius: 0.75rem;
+}
+
+/* Section Divider */
+.sectionDivider {
+  padding: 2rem 0;
+  border-top: 1px solid var(--color-surface-container);
+  background-color: var(--color-surface);
+}
+
+.dividerLabel {
+  font-size: 0.6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--color-on-surface-variant);
+  opacity: 0.5;
+  text-align: center;
 }

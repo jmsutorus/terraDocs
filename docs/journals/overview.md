@@ -3,22 +3,41 @@ title: Overview
 sidebar_position: 1
 ---
 
-# Overview
+# Journals
 
-Welcome to the **Overview** documentation for Terra.
+Journals is where your inner life lives. It's a writing space for daily reflections, freeform essays, ideas, and anything else you want to put into words. Entries are yours alone by default — you decide what, if anything, to share publicly.
 
-This section covers how to use the Journals feature to enhance your lifestyle and productivity.
+## How it works
 
-## Overview
+Every journal entry has a title and a body. Beyond that, you can add a mood score, tags, a hero image, and links to other things in your Terra archive. There are two entry types that serve different purposes:
 
-Terra's Journals module is designed to be intuitive, kinetic, and deeply integrated into your daily routine.
+| Type | When to use it |
+|---|---|
+| **Daily** | Entries tied to a specific date — reflections, recaps, daily logs |
+| **General** | Undated entries — essays, ideas, ongoing writing, anything timeless |
 
-## Key Features
+Both types live in the same journal and you can filter between them.
 
-- **Seamless Integration**: Works beautifully with other Terra modules.
-- **Tactile Experience**: Designed with our Earthbound Editorial philosophy.
-- **Privacy First**: Your data stays yours.
+## What you can add to an entry
 
-## Getting Started
+- **Title** — required
+- **Body** — full markdown editor for your writing
+- **Mood** — a 1–10 score that color-codes the entry in your archive
+- **Tags** — custom labels you create, used for filtering and thematic browsing
+- **Hero image** — a photo that appears at the top of the entry; upload a file or paste a URL
+- **Links** — connect the entry to other things in Terra: people, events, habits, goals, media, vacations, parks, restaurants, and more
 
-To get started with Journals, navigate to the Journals tab in the Terra app.
+## What you can do
+
+- **Write and edit entries** at any time, with no length limit
+- **Filter by type** (daily vs. general) or **by tag** to find what you're looking for
+- **Switch between grid and list view** in your archive
+- **Publish entries** to make them visible on your public profile
+- **Feature an entry** to spotlight it at the top of your profile
+- **Browse adjacent entries** — navigate to the previous and next entry from any detail page
+
+## Where journals connect to the rest of Terra
+
+The rich linking system means a journal entry can anchor a moment across your whole archive — connect the entry to the event you were at, the people you were with, the habit you were reflecting on, or the goal you were working toward. Over time these links build a web of context around your writing.
+
+*Your inner life, archived with intention.*

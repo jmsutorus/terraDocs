@@ -3,22 +3,43 @@ title: Overview
 sidebar_position: 1
 ---
 
-# Overview
+# Drinks
 
-Welcome to the **Overview** documentation for Terra.
+Drinks is your personal beverage collection — a place to catalog what you've tasted, what you want to try, and what you have stocked. It works for wine, beer, spirits, cocktails, coffee, tea, or anything else you drink and want to remember.
 
-This section covers how to use the Drinks feature to enhance your lifestyle and productivity.
+## How it works
 
-## Overview
+Each drink you add gets its own entry with tasting characteristics, a rating, and a status. When you drink something, you log a tasting — a separate record that captures when you had it, where, and how it was. So if you've had a favorite wine ten times, you have one entry in your collection and ten tasting logs attached to it.
 
-Terra's Drinks module is designed to be intuitive, kinetic, and deeply integrated into your daily routine.
+## What you can store per drink
 
-## Key Features
+- **Name** and type (Beer, Wine, Cocktail, Spirit, Coffee, Tea, or Other)
+- **Producer** — winery, brewery, distillery, or roaster
+- **Year / vintage**
+- **ABV** — alcohol by volume
+- **Rating** — 1–10, your overall view of this drink
+- **Notes** — freeform tasting notes or observations
+- **Tasting characteristics** — body, serving temperature, food pairings
+- **Status** — Want to Try, Tasted, or Stocked
+- **Favorite flag** — marks your top bottles and brews
+- **Photo** — upload a file or paste a URL
 
-- **Seamless Integration**: Works beautifully with other Terra modules.
-- **Tactile Experience**: Designed with our Earthbound Editorial philosophy.
-- **Privacy First**: Your data stays yours.
+## The four tabs
 
-## Getting Started
+| Tab | What it's for |
+|---|---|
+| **Home** | A featured pour and recent tastings |
+| **Collection** | Your full list with search and filters |
+| **Flights** | Your collection organized by drink type |
+| **Sommelier** | AI beverage guide (coming soon) |
 
-To get started with Drinks, navigate to the Drinks tab in the Terra app.
+## What you can do
+
+- **Add drinks** to your collection with full metadata
+- **Log tastings** when you open or order something — with a date, location, and tasting-specific rating
+- **Mark favorites** for quick reference
+- **Filter and search** your collection by name, producer, or type
+- **Browse by type** in the Flights tab to see all your wines, beers, or spirits together
+- **Publish drinks** to share your collection on your public Terra profile
+
+*Every pour, remembered.*

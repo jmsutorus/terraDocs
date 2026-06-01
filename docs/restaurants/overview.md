@@ -3,22 +3,43 @@ title: Overview
 sidebar_position: 1
 ---
 
-# Overview
+# Restaurants
 
-Welcome to the **Overview** documentation for Terra.
+Restaurants is your personal dining archive — a record of everywhere you've eaten, want to eat, or have stopped going. It goes beyond a list: you can log individual visits with notes and ratings, link visits to events, and build a searchable history of your culinary experiences.
 
-This section covers how to use the Restaurants feature to enhance your lifestyle and productivity.
+## How it works
 
-## Overview
+Each restaurant gets its own entry with details about the place — cuisine, price range, location, your overall rating, and notes. Beneath that, you log individual visits with their own dates, ratings, and notes. So if you've been to a restaurant ten times over two years, you have ten visit records, not just one entry.
 
-Terra's Restaurants module is designed to be intuitive, kinetic, and deeply integrated into your daily routine.
+## What you can track per restaurant
 
-## Key Features
+- **Name** and cuisine (27 cuisine types to choose from)
+- **Price range** — $ to $$$$
+- **Location** — address, city, state
+- **Phone and website**
+- **Overall rating** — 1–10, displayed as stars
+- **Notes** — freeform observations about the place, the food, the vibe
+- **Status** — Visited, Wishlist, or Closed
+- **Favorite flag** — marks top choices (entries rated 9 or above are auto-labeled as favorites)
+- **Photo** — upload a file or paste a URL
 
-- **Seamless Integration**: Works beautifully with other Terra modules.
-- **Tactile Experience**: Designed with our Earthbound Editorial philosophy.
-- **Privacy First**: Your data stays yours.
+## The four tabs
 
-## Getting Started
+| Tab | What it's for |
+|---|---|
+| **Home** | A featured spotlight on a top restaurant and recent discoveries |
+| **Archive** | Your full list with search, status filters, and sort options |
+| **Cuisines** | Your collection organized by cuisine type |
+| **Concierge** | AI restaurant assistant (coming soon) |
 
-To get started with Restaurants, navigate to the Restaurants tab in the Terra app.
+## What you can do
+
+- **Add restaurants** you've been to, want to try, or want to remember
+- **Log individual visits** with dates, ratings, and notes
+- **Link visits to events** (a birthday dinner, an anniversary)
+- **Filter by status** — see just your Wishlist, just places you've visited, or everything
+- **Search by name, cuisine, city, or notes**
+- **Sort by** most recent visit, highest rating, most visits, or name
+- **Browse by cuisine** to see which types of food you eat most
+
+*Every meal worth remembering, recorded.*

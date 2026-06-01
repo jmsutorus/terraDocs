@@ -19,6 +19,13 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
+  stylesheets: [
+    {
+      href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200',
+      type: 'text/css',
+    },
+  ],
+
   // Set the production url of your site here
   url: 'https://docs.myearthbound.app',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -83,9 +90,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Earthbound Docs',
+        title: 'Earthbound',
         logo: {
-          alt: 'Earthbound Docs Logo',
+          alt: 'Earthbound Logo',
           src: 'img/favicon-96x96.png',
         },
         items: [
@@ -93,12 +100,12 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Editorial',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/blog', label: 'Journal', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://earthbound.app',
+            label: 'Open App',
             position: 'right',
           },
         ],
@@ -107,11 +114,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Editorial',
             items: [
               {
                 label: 'Overview',
                 to: '/docs/',
+              },
+              {
+                label: 'The Pulse',
+                to: '/docs/pulse/overview',
+              },
+              {
+                label: 'The Ranger',
+                to: '/docs/ai/overview',
               },
             ],
           },
@@ -119,16 +134,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Earthbound App',
+                href: 'https://earthbound.app',
               },
               {
                 label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: 'https://x.com/myearthbound',
               },
             ],
           },
@@ -136,17 +147,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'Journal',
                 to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} terraDocs. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Earthbound. Curate a Life of Intention.`,
       },
       prism: {
         theme: prismThemes.github,
