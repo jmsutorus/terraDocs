@@ -7,7 +7,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
-function BrowserFrame({children, url = "docs.earthbound.app"}) {
+function BrowserFrame({children, url = "docs.cairnholm.com"}) {
   return (
     <div className={styles.browserFrame}>
       <div className={styles.browserHeader}>
@@ -68,7 +68,7 @@ function HomepageHeader() {
               </Heading>
               <p className={styles.heroSubtitle}>
                 A digital sanctuary for the modern archivist. Explore the guides, 
-                API references, and philosophy of the Earthbound ecosystem.
+                API references, and philosophy of the CairnHolm ecosystem.
               </p>
               <div className={styles.buttons}>
                 <Link
@@ -78,8 +78,8 @@ function HomepageHeader() {
                 </Link>
                 <Link
                   className="button button--secondary button--lg"
-                  to="https://earthbound.app">
-                  Open Earthbound
+                  to="https://cairnholm.com">
+                  Open CairnHolm
                 </Link>
               </div>
             </div>
@@ -102,7 +102,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Documentation for the Earthbound personal archive system.">
+      description="Documentation for the CairnHolm personal archive system.">
       <HomepageHeader />
       <main>
         <div className={styles.sectionDivider}>

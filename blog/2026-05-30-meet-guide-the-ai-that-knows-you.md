@@ -18,7 +18,7 @@ Guide is different.
 
 ## What Guide Actually Has Access To
 
-Guide is Earthbound's built-in AI â€” powered by Gemini, but loaded with the context of your logged life.
+Guide is CairnHolm's built-in AI â€” powered by Gemini, but loaded with the context of your logged life.
 
 When you open a conversation with Guide, it already knows:
 
@@ -54,7 +54,7 @@ This means chatting with Guide about your life isn't just conversational â€�
 
 ## Proactive Insights
 
-Beyond answering questions on demand, Guide is the engine behind several proactive insight features across Earthbound:
+Beyond answering questions on demand, Guide is the engine behind several proactive insight features across CairnHolm:
 
 **AI Consistency Insight** â€” once you've logged 100 completions for a habit, Guide analyzes your pattern and surfaces an observation about your consistency. When do you tend to slip? What does your strongest week look like? It's a reflection generated from your specific history.
 
@@ -74,4 +74,4 @@ That's not a search result. That's context.
 
 Guide doesn't replace your own judgment â€” it gives you better information to work with. And unlike every other AI assistant you've used, it gets more useful over time, as your logged history grows.
 
-[Open Guide and see what it already knows.](https://earthbound.app)
+[Open Guide and see what it already knows.](https://cairnholm.com)

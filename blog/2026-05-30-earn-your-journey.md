@@ -1,14 +1,14 @@
 ﻿---
 slug: earn-your-journey
-title: "Earn Your Journey: How Earthbound Makes Progress Visible"
+title: "Earn Your Journey: How CairnHolm Makes Progress Visible"
 authors: [earthbound]
 tags: [achievements, gamification, progress, motivation]
-description: "Every habit logged, every park visited, every concert attended â€” it all counts toward something. Earthbound's achievement system turns your life into a record worth earning."
+description: "Every habit logged, every park visited, every concert attended â€” it all counts toward something. CairnHolm's achievement system turns your life into a record worth earning."
 ---
 
 There's a version of life tracking that feels like filing paperwork. You log things because you should, check boxes because you said you would, and the only reward is a streak number that doesn't mean much.
 
-Earthbound is built on a different idea: every action you take in your life is worth recognizing. Not in a hollow gamification sense â€” in the sense that your first run, your first concert, your first national park in a new state are genuine milestones. They deserve a moment.
+CairnHolm is built on a different idea: every action you take in your life is worth recognizing. Not in a hollow gamification sense â€” in the sense that your first run, your first concert, your first national park in a new state are genuine milestones. They deserve a moment.
 
 That's what the achievement system is for.
 
@@ -16,7 +16,7 @@ That's what the achievement system is for.
 
 ## How Achievements Work
 
-Earthbound has over 100 achievements across 17 categories, covering every area of life the app tracks: habits, exercise, mood, goals, travel, parks, media, restaurants, drinks, events, sports, relationships, creations, and more.
+CairnHolm has over 100 achievements across 17 categories, covering every area of life the app tracks: habits, exercise, mood, goals, travel, parks, media, restaurants, drinks, events, sports, relationships, creations, and more.
 
 Achievements unlock automatically as you live your life and log it. You don't have to think about them. Log your first run and "Hit the Pavement" unlocks. Attend your first live show and "Live Music" appears. Visit parks in five different states and "State Hopper" triggers. Complete every task for a long enough streak and "Completionist" is yours.
 
@@ -33,11 +33,11 @@ Each one is something you might do anyway â€” but now, doing it leaves a ma
 
 ## The Notification
 
-When you unlock an achievement, Earthbound tells you about it with a notification designed to feel like it actually matters.
+When you unlock an achievement, CairnHolm tells you about it with a notification designed to feel like it actually matters.
 
 On desktop, a card slides up from the bottom-right of the screen: your achievement badge in a custom frame, the achievement name, and a brief description of what you did to earn it. A backdrop dim settles over the page, making the moment feel like an arrival.
 
-On mobile, a full-screen modal appears with a spring animation â€” centered on the screen, with an ambient glow behind the badge and a dismissal button in Earthbound's terracotta. Multiple achievements queue sequentially, so if you log a first run, complete a workout goal, and trigger a parks milestone in the same session, each one gets its moment.
+On mobile, a full-screen modal appears with a spring animation â€” centered on the screen, with an ambient glow behind the badge and a dismissal button in CairnHolm's terracotta. Multiple achievements queue sequentially, so if you log a first run, complete a workout goal, and trigger a parks milestone in the same session, each one gets its moment.
 
 After you dismiss, you can tap "View Achievements" to go straight to your achievement page and see where the new unlock sits in the full picture.
 
@@ -57,7 +57,7 @@ When you unlock new achievements, you can tap "View Achievements" from the notif
 
 ## Auto-Sync on Login
 
-You don't need to manually trigger achievement checks. Every time you sign in, Earthbound silently syncs your achievement progress â€” checking all categories against your current data and unlocking anything you've earned since your last session.
+You don't need to manually trigger achievement checks. Every time you sign in, CairnHolm silently syncs your achievement progress â€” checking all categories against your current data and unlocking anything you've earned since your last session.
 
 This matters especially for users who use the app regularly: achievements you earned while logging things elsewhere in the app will surface automatically next time you open the achievements page, without any action on your part.
 
@@ -69,4 +69,4 @@ You were going to go for that run anyway. You were going to visit that park. You
 
 Over time, your achievements page becomes something worth looking at. Not a leaderboard or a social score â€” a personal record. Evidence, category by category, of how you've actually been living.
 
-[Start earning your first achievements today.](https://earthbound.app)
+[Start earning your first achievements today.](https://cairnholm.com)

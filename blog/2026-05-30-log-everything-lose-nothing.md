@@ -3,7 +3,7 @@ slug: log-everything-lose-nothing
 title: "Log Everything. Lose Nothing."
 authors: [earthbound]
 tags: [features, tracking, life-logging]
-description: "There are 20+ things worth tracking in a life well-lived. Earthbound holds all of them â€” and connects them in ways no single-purpose app ever could."
+description: "There are 20+ things worth tracking in a life well-lived. CairnHolm holds all of them â€” and connects them in ways no single-purpose app ever could."
 ---
 
 Here's a thought experiment: think about last month. A meal that surprised you. A film that stuck with you. A hike where the light was just right. A conversation worth keeping.
@@ -22,7 +22,7 @@ The popular approach to life tracking is to pick one thing and go deep. Download
 
 The problem is that life doesn't happen in slices. Your mood on Thursday isn't just about Thursday â€” it's about the run you did Tuesday, the concert you went to Wednesday, and the sleep you got the night before. Cross-category patterns are where the real insight lives, and you can't see them if your data lives in six different places.
 
-Earthbound was built on the premise that breadth is the feature.
+CairnHolm was built on the premise that breadth is the feature.
 
 ## What You Can Track
 
@@ -53,7 +53,7 @@ Twenty-plus categories, one dashboard:
 
 ## The Collective Log
 
-Every day, your Earthbound dashboard shows you a **Collective Log** â€” an editorial card view of everything you logged that day across every category. A workout card next to a film log next to a restaurant visit. The variety is the point: it reflects a real day, not a one-dimensional one.
+Every day, your CairnHolm dashboard shows you a **Collective Log** â€” an editorial card view of everything you logged that day across every category. A workout card next to a film log next to a restaurant visit. The variety is the point: it reflects a real day, not a one-dimensional one.
 
 Each card uses illustrated icons matched to the content type, so your evening run looks different from your strength session, and your thriller film looks different from your vinyl record. The visual texture makes scanning the log genuinely pleasant.
 
@@ -61,7 +61,7 @@ Each card uses illustrated icons matched to the content type, so your evening ru
 
 Here's what becomes possible when your data isn't siloed:
 
-You visit a national park on a Saturday and log it in Earthbound. That evening, you log your mood â€” a 5, the best of the week. Over time, the pattern becomes undeniable: outdoor days are high-mood days.
+You visit a national park on a Saturday and log it in CairnHolm. That evening, you log your mood â€” a 5, the best of the week. Over time, the pattern becomes undeniable: outdoor days are high-mood days.
 
 You start logging your energy drinks and track them against your sleep quality. Two months in, you can see the correlation clearly. You didn't need a study; you had your own data.
 
@@ -71,8 +71,8 @@ No single-purpose app can show you any of this. Breadth makes it possible.
 
 ## You Don't Have to Log Everything
 
-A quick note: Earthbound isn't asking you to spend an hour a day logging your life. Most entries take under a minute. Log the things that matter; skip the things that don't. The value compounds even from partial coverage.
+A quick note: CairnHolm isn't asking you to spend an hour a day logging your life. Most entries take under a minute. Log the things that matter; skip the things that don't. The value compounds even from partial coverage.
 
 The point isn't completeness. It's continuity. A year from now, you'll want a record of this month. The effort required to build it is smaller than you think.
 
-[Start your free account and see what you're already forgetting.](https://earthbound.app)
+[Start your free account and see what you're already forgetting.](https://cairnholm.com)

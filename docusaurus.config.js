@@ -10,8 +10,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Earthbound Docs',
-  tagline: 'The Earthbound Editorial',
+  title: 'CairnHolm Docs',
+  tagline: 'The CairnHolm Editorial',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -27,15 +27,15 @@ const config = {
   ],
 
   // Set the production url of your site here
-  url: 'https://docs.myearthbound.app',
+  url: 'https://docs.cairnholm.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'My Earthbound', // Usually your GitHub org/user name.
-  projectName: 'myEarthbound', // Usually your repo name.
+  organizationName: 'CairnHolm', // Usually your GitHub org/user name.
+  projectName: 'cairnholm', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -90,9 +90,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Earthbound',
+        title: 'CairnHolm',
         logo: {
-          alt: 'Earthbound Logo',
+          alt: 'CairnHolm Logo',
           src: 'img/favicon-96x96.png',
         },
         items: [
@@ -104,7 +104,7 @@ const config = {
           },
           { to: '/blog', label: 'Journal', position: 'left' },
           {
-            href: 'https://earthbound.app',
+            href: 'https://cairnholm.com',
             label: 'Open App',
             position: 'right',
           },
@@ -134,8 +134,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Earthbound App',
-                href: 'https://earthbound.app',
+                label: 'CairnHolm App',
+                href: 'https://cairnholm.com',
               },
               {
                 label: 'X',
@@ -153,7 +153,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Earthbound. Curate a Life of Intention.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CairnHolm. Curate a Life of Intention.`,
       },
       prism: {
         theme: prismThemes.github,
