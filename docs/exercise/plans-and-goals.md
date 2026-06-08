@@ -36,21 +36,28 @@ Workout goals are simple, self-directed targets you set for your movement. Examp
 
 Goals are manual — Terra won't auto-complete them based on your logged workouts. You decide when you've hit the target.
 
-## Personal records (PRs)
+## Trophy Room
 
-The Records tab tracks your athletic milestones. You choose which PR categories to track in settings.
+The Records tab features your Trophy Room — four personal bests pulled automatically from everything you've logged:
 
-**Available categories:**
-- **Running PRs** — fastest times, longest distances
-- **Weightlifting PRs** — heaviest lifts per exercise
+- **Longest run** — your furthest single run by distance
+- **Fastest pace** — your best pace per mile across all runs
+- **Max weight lifted** — your heaviest single lift across all strength sessions
+- **Longest swim** — your furthest single swimming session
 
-**To add a PR:** Tap **Add PR** from the Records tab. Enter the exercise or distance, the value (time or weight), and the date you achieved it.
+The Trophy Room updates automatically as you log new workouts. You don't configure it or add entries — it reflects the peaks of what you've actually recorded.
 
-**To edit a PR:** Tap any existing record to update the value or date.
+## Lift Records
 
-**To enable/disable PR tracking:** Open Exercise Settings and toggle the categories you want.
+In the **Stats** tab, switch the activity filter to **Strength** to see Lift Records: your best set for every named exercise you've logged with weight. Each card shows the highest weight achieved, the sets × reps it was hit at, and the date.
 
-PRs are logged manually — Terra doesn't auto-detect them from your workout entries. When you hit a new milestone, you add it yourself.
+Lift Records update automatically after every strength session. If you log a new max on any lift, it appears here without any extra action.
+
+## Best Efforts for running
+
+In the **Stats** tab, switch the activity filter to **Run** to see Best Efforts: your estimated best pace at standard race distances — 400m, 1 mile, 5K, 10K, half marathon, marathon — derived from your actual logged runs.
+
+You don't need to race to have race-equivalent times. If your logged runs contain enough data, Cairnholm estimates your best effort at each distance. These update automatically after every run.
 
 ## Common questions
 

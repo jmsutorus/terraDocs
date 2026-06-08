@@ -11,7 +11,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CairnHolm Docs',
-  tagline: 'The CairnHolm Editorial',
+  tagline: 'CairnHolm Docs & Blog',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -61,6 +61,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          postsPerPage: 'ALL',
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -100,9 +101,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Editorial',
+            label: 'Docs',
           },
-          { to: '/blog', label: 'Journal', position: 'left' },
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://cairnholm.com',
             label: 'Open App',
@@ -114,7 +115,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Editorial',
+            title: 'Docs',
             items: [
               {
                 label: 'Overview',
@@ -147,7 +148,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Journal',
+                label: 'Blog',
                 to: '/blog',
               },
             ],

@@ -19,7 +19,7 @@ Tap the **+** button (bottom right on mobile) or use the **Log Activity** option
 - **Difficulty** — how hard it felt (Easy, Moderate, Hard, Very Hard)
 
 **Optional fields:**
-- **Distance** — miles logged (only available for Run type; pace calculates automatically)
+- **Distance** — miles logged (available for Run, Swimming, and Cycling; pace calculates automatically for runs)
 - **Exercises** — break the session down into individual movements (see below)
 - **Notes** — anything you want to remember about the session: how you felt, where you were, what you noticed
 

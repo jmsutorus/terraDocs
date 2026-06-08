@@ -21,7 +21,8 @@ Terra also supports **scheduled workouts** — planned sessions that appear as u
 - Strength
 - Flexibility
 - Sports
-- Swim
+- Swimming
+- Cycling
 - Yoga
 - Pilates
 - Mixed
@@ -31,21 +32,20 @@ Terra also supports **scheduled workouts** — planned sessions that appear as u
 
 **Per-session details:**
 - Duration (minutes)
-- Distance in miles (runs only)
+- Distance in miles (runs, swimming, and cycling)
 - Pace (auto-calculated for runs)
 - Individual exercises with sets, reps, weight, muscle group, and notes
 - Free-form notes about the session
 - Completion status with optional post-activity notes
 
-## The five tabs
+## The four tabs
 
 | Tab | What it's for |
 |---|---|
-| **Home** | Quick overview: upcoming workouts, recent sessions, your active plan, goals, and PRs |
-| **List** | Browse and filter your full workout history |
-| **Records** | Personal records and workout goals |
-| **History** | Calendar-style timeline of all activity |
-| **Agent** | Jump to the AI chat for workout questions |
+| **Home** | Quick overview: upcoming workouts, recent sessions, your active plan, goals, and Trophy Room |
+| **List** | Browse, filter, and search your full workout history |
+| **Records** | Trophy Room and workout goals |
+| **Stats** | Training heatmap, Activity Trends chart, per-type stats, Best Efforts, Lift Records, and body metrics |
 
 ## What you can do
 
@@ -54,9 +54,12 @@ Terra also supports **scheduled workouts** — planned sessions that appear as u
 - **Mark a scheduled workout complete** with optional notes on how it went
 - **Generate a 7-day AI plan** based on your goals and preferences
 - **Set workout goals** and mark them achieved when you hit them
-- **Track personal records** for running and weightlifting
+- **See your Trophy Room** — longest run, fastest pace, max weight lifted, longest swim, auto-updated from your logs
+- **Browse Lift Records** — best weight per exercise across every strength session you've logged
+- **View Best Efforts** for running — estimated pace at standard race distances derived from your actual runs
 - **See year-to-date stats** — total workouts, total time, distance, and completion rate
-- **View trends** by week across the last 3 months
+- **View Activity Trends** across 12 months with time/distance toggle and week/month grouping
+- **Explore the Training History heatmap** — a year of training days in a single view
 
 ## Connecting to the rest of Terra
 
