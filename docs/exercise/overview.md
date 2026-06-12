@@ -11,6 +11,8 @@ Terra's Exercise section — called **Movement** in the app — is where you log
 
 Every workout you do can be logged as an activity. You pick the type, how long you moved, how hard it felt, and optionally break it down into individual exercises. That history builds into charts, stats, and a year-long record of your physical consistency.
 
+You don't have to enter everything by hand — workouts recorded elsewhere can be imported from a connected **Strava** account or from a **Garmin** file export, with distance, heart rate, elevation, and mile splits included. See [Importing Workouts](./importing-workouts).
+
 Terra also supports **scheduled workouts** — planned sessions that appear as upcoming items before you've completed them. Once done, you log the actual activity and it moves into your history.
 
 ## What you can track
@@ -50,6 +52,7 @@ Terra also supports **scheduled workouts** — planned sessions that appear as u
 ## What you can do
 
 - **Log a workout** from the floating + button or the Home tab
+- **Import a workout** from your connected Strava account or a Garmin `.tcx`/`.gpx` file
 - **Copy a past workout** to a new date instead of re-entering everything
 - **Mark a scheduled workout complete** with optional notes on how it went
 - **Generate a 7-day AI plan** based on your goals and preferences

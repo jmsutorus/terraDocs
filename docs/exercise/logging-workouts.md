@@ -25,6 +25,10 @@ Tap the **+** button (bottom right on mobile) or use the **Log Activity** option
 
 None of the optional fields are required. A five-field entry is a valid workout log.
 
+## Importing instead of logging
+
+If the workout was already recorded by Strava or a Garmin device, use the **Import Workout** dropdown in the Exercise page header instead of entering it manually — the importer fills in duration, distance, heart rate, and mile splits for you. See [Importing Workouts](./importing-workouts) for the full walkthrough.
+
 ## Adding individual exercises
 
 Inside a workout entry you can build a detailed exercise list. For each exercise, you can set:

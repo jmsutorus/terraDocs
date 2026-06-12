@@ -1,6 +1,6 @@
 ---
 title: Plans & Goals
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Plans & Goals
